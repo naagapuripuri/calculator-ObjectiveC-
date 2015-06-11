@@ -10,6 +10,20 @@
 
 @interface ViewController : UIViewController
 
+{
+    double number;
+    double total;
+    int Flug;
+    int init;
+    double fake;
+    NSString *kazutext;
+  //  IBOutlet UILabel *kazulabel;
+    IBOutlet UILabel *anslabel;
+    NSString *anstext;
+
+    
+}
+@property (weak, nonatomic) IBOutlet UILabel *kazulabel;
 
 @end
 
